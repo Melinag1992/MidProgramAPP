@@ -19,4 +19,9 @@
         android:textSize="20sp"
         android:text="Hello World!" />
 
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
 </RelativeLayout>

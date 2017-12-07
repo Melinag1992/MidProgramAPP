@@ -49,7 +49,9 @@ public class LoopActivity extends AppCompatActivity {
 
             int count = integers.length;
             for (int i = count; i < 100000; i++) {
-                return publishProcess();
+                 publishProgress(i);
+
+                 loopnumbers = i;
             }
             return loopnumbers;
         }
