@@ -9,6 +9,7 @@
     tools:context="com.cq4.midprogramapp.LoopActivity">
 
     <TextView
+        android:id="@+id/loops_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
